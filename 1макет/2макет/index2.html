@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <link rel="stylesheet" type="text/css" href="../media.css">
+
+    <title>Ермолина</title>
+</head>
+<body>
+    <div class="up">
+        <img class="logo" src="logo.png" alt="Логотип"> 
+        <p class="gru">Группа: ЭФБО-01-23<br>Ермолина Софья Алексеевна</p>
+    </div> 
+    <div class="sec">
+        <a href="../index.html">Главная</a>
+        <a href="../3макет/index3.html">Первый семестр</a>
+        <a href="../4макет/index4.html">Второй семестр</a>
+        <a>Услуги</a>
+        <a>Авторизация</a> 
+    </div>
+    <main>
+        <aside>Навигация по странице<br><br>
+            <a href="#raz" class="aside-text">Разработка</a><br>
+        </aside>
+        <section>
+                <h1 id="raz">Разработка веб-приложений</h1>
+                <div class="prods">
+                    <div class="pict">
+                        <img class="impro" src="visitk.png" alt="visitk">
+                        <p class="descr">Сайт-визитка</p>
+                        <div class="but-wrap"><button type="button" class="but">Заказать</button></div>
+                        
+                    </div>
+                    <div class="pict">
+                        <img class="impro" src="korp-sait.png" alt="site">
+                        <p class="descr">Корпоративный сайт </p>
+                        <div class="but-wrap"><button type="button" class="but">Заказать</button></div>
+                    </div>
+                    <div class="pict">
+                        <img class="impro" src="magaz.png" alt="magazin">
+                        <p class="descr">Интернет-магазин</p>
+                        <div class="but-wrap"><button type="button" class="but">Заказать</button></div>
+                    </div>
+                    <div class="pict">
+                        <img class="impro" src="Web.png" alt="magazin">
+                        <p class="descr">Личный сайт</p>
+                        <div class="but-wrap"><button type="button" class="but">Заказать</button></div>
+                    </div>
+                    <div class="pict">
+                        <img class="impro" src="comp.png" alt="magazin">
+                        <p class="descr">Оформление профиля</p>
+                        <div class="but-wrap"><button type="button" class="but">Заказать</button></div>
+                    </div>
+                    <div class="pict">
+                        <img class="impro" src="tree.png" alt="magazin">
+                        <p class="descr">Создание резюме</p>
+                        <div class="but-wrap"><button type="button" class="but">Заказать</button></div>
+                    </div>
+                    
+                </div>
+                <div>
+                    Безусловно, экономическая повестка сегодняшнего дня однозначно фиксирует необходимость позиций, 
+                    занимаемых участниками в отношении поставленных задач. Прежде всего, повышение уровня гражданского 
+                    сознания обеспечивает актуальность своевременного выполнения сверхзадачи! Каждый из нас понимает
+                    очевидную вещь: социально-экономическое развитие, в своём классическом представлении, допускает
+                    внедрение вывода текущих активов. В своём стремлении повысить качество жизни, они забывают, что 
+                    убеждённость некоторых оппонентов прекрасно подходит для реализации стандартных подходов. Банальные,
+                    но неопровержимые выводы, а также диаграммы связей объединены в целые кластеры себе подобных.
+                </div>
+        </section>
+    </main>
+    <div class="modal">
+        
+        <form class="modal-content" id="contactForm">
+            <div class="close">X</div>
+            <div class="form-group">
+                <label for="name">Как Вас зовут?</label>
+                <input type="text" id="name" name="name" placeholder="Имя" required></br>
+            </div>
+            <div class="form-group">
+                <label for="email">Ваша электронная почта:</label>
+                <input type="email" id="email" name="email" placeholder="Почта" required></br>
+            </div>
+            <div class="form-group">
+                <label for="phone">Ваш номер телефона:</label>
+                <input type="tel" id="phone" name="phone" pattern="[8][(][0-9]{3}[)]{7}" placeholder="8(926)123-45-67"></br>
+            </div>
+            <div class="form-group">
+                <label for="region">Страна:</label>
+                <select name="region" id="region" required>
+                    <option value="">Выберите страну</option>
+                    <option value="rf">РФ</option>
+                    <option value="bel">Беларусь</option>
+            </select></br>
+            </div>
+            <div class="form-group">
+                <label for="date">Дата:</label>
+                <input type="date" id="date" name="date" required></br>
+            </div>
+            <div class="form-group">
+                <label for="comments">Комментарии:</label>
+                <textarea id="comments" name="comments" placeholder="Ваши пожелания"></textarea></br>
+            </div>
+            
+            <button type="submit" class="sub">Отправить</button>
+        </form>
+    </div>
+    
+
+    <div class="footer">
+        <p>Ермолина Софья Алексеевна, 2024</p>
+        <a href="https://t.me/jigglleq"><img class="tg" src="telg.png" alt="Telegram"></a>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
